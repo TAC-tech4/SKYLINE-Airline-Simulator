@@ -49,3 +49,8 @@ This release is single-player and local-first. Saves are held in this browser's 
 `public/assets/land.json`: Natural Earth 1:110m land data, public domain, from https://github.com/nvkelso/natural-earth-vector. https://www.naturalearthdata.com/about/terms-of-use/
 
 Optional Google Fonts: DM Sans / Space Grotesk (system fonts are used if unavailable).
+
+## Version 1.1
+31 aircraft models with local Wikimedia Commons photographs; airline founding with 3 strategies, name, code, hub and brand color; four staff roles, payroll, salary policy and training; 12 incidents with timed decisions. Version 1 saves migrate in place with sufficient initial staff. Aircraft economics and staffing are balanced game values. Photographs depict the same aircraft family, not necessarily the exact variant.
+
+Photo attribution: `public/assets/aircraft/credits.json`, also accessible in the aircraft market. Images are cropped by CSS; original files are unmodified. Each image retains its respective license. Source code license does not replace third-party image licenses.

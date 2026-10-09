@@ -1,0 +1,222 @@
+[
+  {
+    "id": "atr42",
+    "title": "ATR 42",
+    "file": "ATR_42-500_Hop!_(HOP)_F-GPYK_-_MSN_537_(10276128103).jpg",
+    "image": "/assets/aircraft/atr42.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:ATR_42-500_Hop!_(HOP)_F-GPYK_-_MSN_537_(10276128103).jpg",
+    "author": "Laurent ERRERA from L'Union, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "atr72",
+    "title": "ATR 72",
+    "file": "F-WWEZ_(948)_ATR.72-212A(500)_FlyFireFly_TLS_30AUG11_(6097869500)_(cropped).jpg",
+    "image": "/assets/aircraft/atr72.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:F-WWEZ_(948)_ATR.72-212A(500)_FlyFireFly_TLS_30AUG11_(6097869500)_(cropped).jpg",
+    "author": "Ken Fielding",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "dash8",
+    "title": "De Havilland Canada Dash 8",
+    "file": "Hamburg_Airport_Widerøe_Bombardier_DHC-8-402Q_LN-WDR_(DSC08713).jpg",
+    "image": "/assets/aircraft/dash8.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_(DSC08713).jpg",
+    "author": "MarcelX42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "ejet",
+    "title": "Embraer E-Jet family",
+    "file": "KLM_Cityhopper_-_Embraer_190LR_-_AN2571563.jpg",
+    "image": "/assets/aircraft/ejet.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:KLM_Cityhopper_-_Embraer_190LR_-_AN2571563.jpg",
+    "author": "Richard Vandervord",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "e2",
+    "title": "Embraer E-Jet E2 family",
+    "file": "Widerøe,_LN-WEA,_Embraer_E190-E2_@_HEL.jpg",
+    "image": "/assets/aircraft/e2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Wider%C3%B8e,_LN-WEA,_Embraer_E190-E2_@_HEL.jpg",
+    "author": "Valentin Hintikka from Finland",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+    "id": "crj",
+    "title": "Bombardier CRJ700 series",
+    "file": "EC-JTU_(8544702097).jpg",
+    "image": "/assets/aircraft/crj.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:EC-JTU_(8544702097).jpg",
+    "author": "Mark Harkin",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+    "id": "a220",
+    "title": "Airbus A220",
+    "file": "Airbus_A220-300.jpg",
+    "image": "/assets/aircraft/a220.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Airbus_A220-300.jpg",
+    "author": "Romain COUPY",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "a320",
+    "title": "Airbus A320 family",
+    "file": "Airbus_A320-214,_Airbus_Industrie_JP7617615.jpg",
+    "image": "/assets/aircraft/a320.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214,_Airbus_Industrie_JP7617615.jpg",
+    "author": "\nPedro Aragão",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "a320neo",
+    "title": "Airbus A320neo family",
+    "file": "IndiGo_Airbus_A320neo_F-WWDG_(to_VT-ITI)_(28915135713).jpg",
+    "image": "/assets/aircraft/a320neo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:IndiGo_Airbus_A320neo_F-WWDG_(to_VT-ITI)_(28915135713).jpg",
+    "author": "BriYYZ from Toronto, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "a321",
+    "title": "Airbus A321",
+    "file": "Airbus_A321-231(w)_‘N915US’_American_Airlines_(28442733186).jpg",
+    "image": "/assets/aircraft/a321.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Airbus_A321-231(w)_%E2%80%98N915US%E2%80%99_American_Airlines_(28442733186).jpg",
+    "author": "Alan Wilson from Stilton, Peterborough, Cambs, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "a321xlr",
+    "title": "Airbus A321XLR",
+    "file": "Airbus_A321-231(w)_‘N915US’_American_Airlines_(28442733186).jpg",
+    "image": "/assets/aircraft/a321xlr.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Airbus_A321-231(w)_%E2%80%98N915US%E2%80%99_American_Airlines_(28442733186).jpg",
+    "author": "Alan Wilson from Stilton, Peterborough, Cambs, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "b737",
+    "title": "Boeing 737 Next Generation",
+    "file": "Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg",
+    "image": "/assets/aircraft/b737.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg",
+    "author": "4300streetcar",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "id": "max",
+    "title": "Boeing 737 MAX",
+    "file": "Alaska_737_Max_9.jpg",
+    "image": "/assets/aircraft/max.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Alaska_737_Max_9.jpg",
+    "author": "KirkXWB",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "b757",
+    "title": "Boeing 757",
+    "file": "Delta_757-200_N713TW_on_final_approach_to_Boston_Dec_2024_2.jpg",
+    "image": "/assets/aircraft/b757.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Delta_757-200_N713TW_on_final_approach_to_Boston_Dec_2024_2.jpg",
+    "author": "4300streetcar",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "id": "b767",
+    "title": "Boeing 767",
+    "file": "Delta_Air_Lines_B767-332_N130DL.jpg",
+    "image": "/assets/aircraft/b767.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_B767-332_N130DL.jpg",
+    "author": "Delta_Air_Lines_B767-300_N130DL.jpg: Richard Snyder from San Jose, CA, United States of America\nderivative work: Altair78 (talk)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "a330",
+    "title": "Airbus A330",
+    "file": "Delta_Air_Lines_Airbus_A330-300_N830NW_departing_Boston_July_2026_1.jpg",
+    "image": "/assets/aircraft/a330.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_Airbus_A330-300_N830NW_departing_Boston_July_2026_1.jpg",
+    "author": "4300streetcar",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "id": "a330neo",
+    "title": "Airbus A330neo",
+    "file": "Airbus_A330neo_F-WTTN_37.jpg",
+    "image": "/assets/aircraft/a330neo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Airbus_A330neo_F-WTTN_37.jpg",
+    "author": "New York-air",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "b787",
+    "title": "Boeing 787 Dreamliner",
+    "file": "Boeing_787_N1015B_ANA_Airlines_(27611880663)_(cropped).jpg",
+    "image": "/assets/aircraft/b787.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_787_N1015B_ANA_Airlines_(27611880663)_(cropped).jpg",
+    "author": "pjs2005 from Hampshire, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "a350",
+    "title": "Airbus A350",
+    "file": "EGLF_-_Airbus_A350-941_-_F-WZNW.jpg",
+    "image": "/assets/aircraft/a350.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:EGLF_-_Airbus_A350-941_-_F-WZNW.jpg",
+    "author": "Steve Lynes",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+    "id": "b777",
+    "title": "Boeing 777",
+    "file": "Cathay_Pacific_Boeing_777-200;_B-HNL@HKG.jpg",
+    "image": "/assets/aircraft/b777.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_Boeing_777-200;_B-HNL@HKG.jpg",
+    "author": "Aero Icarus from Zürich, Switzerland",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "a380",
+    "title": "Airbus A380",
+    "file": "A6-EDY_A380_Emirates_31_jan_2013_jfk_(8442269364)_(cropped).jpg",
+    "image": "/assets/aircraft/a380.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:A6-EDY_A380_Emirates_31_jan_2013_jfk_(8442269364)_(cropped).jpg",
+    "author": "Maarten Visser from Capelle aan den IJssel, Nederland",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "b747",
+    "title": "Boeing 747-8",
+    "file": "D-ABYT_at_FRA.jpg",
+    "image": "/assets/aircraft/b747.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:D-ABYT_at_FRA.jpg",
+    "author": "Juke Schweizer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+]
