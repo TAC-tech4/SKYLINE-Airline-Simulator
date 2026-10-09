@@ -54,3 +54,6 @@ Optional Google Fonts: DM Sans / Space Grotesk (system fonts are used if unavail
 31 aircraft models with local Wikimedia Commons photographs; airline founding with 3 strategies, name, code, hub and brand color; four staff roles, payroll, salary policy and training; 12 incidents with timed decisions. Version 1 saves migrate in place with sufficient initial staff. Aircraft economics and staffing are balanced game values. Photographs depict the same aircraft family, not necessarily the exact variant.
 
 Photo attribution: `public/assets/aircraft/credits.json`, also accessible in the aircraft market. Images are cropped by CSS; original files are unmodified. Each image retains its respective license. Source code license does not replace third-party image licenses.
+
+## Empire Update 2.0
+See [UPDATE-2.0.md](UPDATE-2.0.md) for features, save recovery and aircraft-image credits. Existing production saves are migrated without reset.
