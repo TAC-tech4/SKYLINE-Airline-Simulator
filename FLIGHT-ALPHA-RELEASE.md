@@ -1,0 +1,24 @@
+# SAS 3.0 Flight Revolution — Alpha 0.1
+
+## Implemented
+- Lazy Three.js bundle, GLB2 exterior loading only on entering flight, deterministic 120 Hz physics, quaternion 6DOF orientation, gravity, lift/drag, engine spool and fuel mass, density, flap/gear drag, stall, crosswind and gusts, runway/ground contact, damage and landing scoring.
+- 18 km original training sector with departure and destination airports, runway markings/lights, city, sea, terrain, clouds, day/sunset/night.
+- Takeoff and final-approach starts, manual pitch/roll/yaw, throttle, trim, flaps, gear, brakes; chase, cockpit, wing and observer cameras. Original cockpit control objects respond to mouse/touch picking for gear/flaps/brake. Instruments are functional HUD/PFD/ND, not certified avionics.
+- Phone/tablet/desktop UI from viewport, pointer/hover/touch capabilities, orientation, DPR and observed input. ResizeObserver and input/gamepad events update mode. Manual UI overrides independent of quality. Touch stick captures a pointer separately from throttle/rudder/brakes. Safe areas and portrait/landscape layouts.
+- Keyboard and opt-in mouse dragging, Gamepad with axis mapping/deadzone/invert extension points. Browsers do not reliably expose “keyboard connected” until input arrives; actual key events update input indicators.
+- Auto/Low/Medium/High graphics: DPR/render scale, shadows, texture resolution, fog/view distance/cloud count. Sustained low FPS lowers Auto quality. Instanced city blocks and distant exterior proxy LOD. WebGL2 required; context loss pauses and preserves state, visibility changes pause physics.
+- All five exterior assets licensed GPLv2, original GLB1 source copies and full license distributed, reproducible GLB2 conversion script. E195-E2 explicitly uses E190 exterior; A321neo explicitly uses older A321 exterior. Other fleet types have a clearly marked procedural exterior and generic alpha flight parameters.
+- Valid owned/serviceable assigned aircraft on active routes enter company flight. Economic time pauses before flight, remains paused after results, so manual sector revenue is not also awarded by the normal daily simulator. Results settle one flight with score, fuel, condition wear, passengers and revenue/cost. Journal and active-session validation prevent duplicate settlement. Simulation time stays real-time; no time acceleration inside flight.
+- SAS VERSION=1, skyline-save-v1 and original backups/snapshots unchanged. Optional flightSession/flightJournal fields only. First company flight pins a permanent pre-flight snapshot. Interrupted company flight remains paused and can resume from a separately saved flight state or be recorded aborted with no reward.
+
+## Tested
+See test/flight.test.js and existing tests: five-type takeoff, deterministic normalization, lift/stall/engine behavior, banked turns, actual physical approach/flare/braking, gear-up/hard/off-runway accidents, wind, controller mappings, device classification, performance governor, exact SAS2 field preservation, pause/offline/fast-tick guards, one-time accounting and damaged-session rejection. npm test also builds and verifies HTTP delivery.
+Browser UI smoke-test results are recorded after Preview deployment. Automated physics pilot exists only in Node tests; no hidden autopilot changes the user's flight physics.
+
+## Limitations / next work
+This is a flyable alpha, not X-Plane/MSFS fidelity. No real world airport mesh, global terrain streaming, FMS, autopilot, ILS, ATC, airline livery painting, certified aircraft data or detailed systems simulation. No high-fidelity cockpit assets; generic simplified controls and original panel geometry. Physics coefficients are tuned for alpha gameplay, not manufacturer-validated.
+“Company flight” is explicitly a compressed training sector linked to the route, not simulation of the full geographic route. Final-approach practice does not award company revenue. Local saves are browser/origin specific: Preview cannot directly see Production localStorage. Existing players may export/import a copy into Preview; production data remains on the production origin. This single-player local simulator is not authoritative multiplayer or anti-cheat secure.
+No physical Android/iPhone or hardware joystick is available in the development environment. Manual UI-mode smoke tests and capability classifier tests do not replace device testing. User should test the Preview on their actual tablet/iPhone before any merge.
+
+## Deployment
+Only feature/sas-3d-flight-alpha. Main remains unchanged. Render independent static Preview builds with `npm ci && npm run build`, publishes `dist`. No backend, keys or database migration. Do not merge to production until user validates controls on real devices.

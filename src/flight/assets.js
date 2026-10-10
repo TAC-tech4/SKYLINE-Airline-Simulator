@@ -1,0 +1,2 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+export const ASSETS={e195:{file:'e190',label:'E190 外觀替代 E195-E2（非 E2 精確模型）',length:36.2,rotation:[0,0,0]},b738:{file:'b738',label:'Boeing 737-800 · GPLv2',length:39.5,rotation:[0,0,0]},b789:{file:'b789',label:'Boeing 787-9 · GPLv2',length:62.8,rotation:[0,0,0]},a359:{file:'a359',label:'Airbus A350-900 · GPLv2',length:66.8,rotation:[0,0,0]},a321:{file:'a321',label:'A321 舊型外觀替代 A321neo（非 neo 精確模型）',length:44.5,rotation:[0,0,0]}};
