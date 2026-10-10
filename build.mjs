@@ -1,7 +1,14 @@
-import {cpSync,mkdirSync,rmSync} from 'node:fs';
+import {cpSync,mkdirSync,rmSync,readFileSync,writeFileSync} from 'node:fs';
 import {build} from 'esbuild';
+import {createHash} from 'node:crypto';
 await import('./scripts/fetch-flight-models.mjs');
 rmSync('dist',{recursive:true,force:true});mkdirSync('dist');cpSync('public','dist',{recursive:true});cpSync('src','dist/src',{recursive:true});
 await build({entryPoints:['src/flight/runtime.js'],outfile:'dist/src/flight/runtime.bundle.js',bundle:true,format:'esm',target:['es2022'],minify:true,legalComments:'linked'});
+const hash=text=>createHash('sha256').update(text).digest('hex').slice(0,12);
+const flight=readFileSync('dist/src/flight/runtime.bundle.js'),flightName=`runtime.${hash(flight)}.js`;
+cpSync('dist/src/flight/runtime.bundle.js','dist/src/flight/'+flightName);
+const app=readFileSync('dist/src/app.js','utf8').replace('/src/flight/runtime.bundle.js','/src/flight/'+flightName);
+const appName=`app.${hash(app)}.js`;writeFileSync('dist/src/'+appName,app);
+const html=readFileSync('dist/index.html','utf8').replace('/src/app.js','/src/'+appName).replace('/flight.css','/flight.css?v='+hash(readFileSync('dist/flight.css')));writeFileSync('dist/index.html',html);
 cpSync('node_modules/three/LICENSE','dist/assets/flight/THREE-LICENSE');
 console.log('Static management + lazy Flight Alpha build complete');
